@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(./img/mcxalhp0kh9ivlp6.jpg) ;
+   
+}
+header {
+    position: static;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+nav a {
+    position: relative;
+    font-size: 28px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 40px;
+}
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(243, 108, 108);;
+}
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 700px;
+    background-color: rgba(233, 78, 78,50%);
+    margin: 2rem;
+
+
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin: 2rem 3rem ;
+    transition: 1s;
+}
+img:hover {
+    transform: scale(2);
+}
+p {
+    font-size: 18px;
+    font-family: cursive;
+    margin: 2rem;
+}
+.img2 {
+    width: 200px;
+    height: 200px;
+    margin: 2rem 3rem ;
+    transition: 3s; 
+}
+.img2:hover {
+    transform: rotate(360deg);
+
+}
+.img3{
+    width: 150px;
+    height: 200px;
+    margin: 2rem 3rem ;
+    transition: 3s;   
+}
+.img3:hover {
+    transform: scaleX(1.5);
+
+}

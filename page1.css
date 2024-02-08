@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+}
+body {
+    background: url(./img/SEI_139957244.webp) no-repeat;
+    background-size: cover;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: 'Protest Riot', sans-serif;
+}
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+nav a {
+    position: relative;
+    font-size: 28px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 40px;
+}
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+.container {
+    position: relative;
+}
+
+.large-box {
+    max-width: 800px;
+    border: 2px solid #fff;
+    margin: 9rem;
+    font-size: 25px;
+   background-color: rgba(125, 125, 180, 50%);
+}
+p {
+    margin: 2rem 5rem 2rem 1rem;
+
+}
+
+.large-box img {
+    width: 200px;
+    border-radius: 50%;
+    height: 250px;
+    position: absolute;
+    right: 300px;
+    top: -30px;
+   
+    
+}
+img:hover{
+    transform: scale(2);
+}
+footer {
+    margin: 2rem;
+}
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.textfooter {
+    font-size: 18px;
+}
