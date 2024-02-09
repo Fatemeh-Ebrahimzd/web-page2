@@ -65,7 +65,7 @@ p {
     border-radius: 50%;
     height: 250px;
     position: absolute;
-    right: 300px;
+    right: 100px;
     top: -30px;
    
     
@@ -82,4 +82,12 @@ footer {
 }
 .textfooter {
     font-size: 18px;
+}
+@media screen and (min-width:733) {
+    img { display: none;}
+}
+@media screen (max-width:667) {
+    p {
+        font: size 10px;
+    }
 }
