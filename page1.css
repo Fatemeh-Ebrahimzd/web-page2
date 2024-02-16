@@ -83,11 +83,10 @@ footer {
 .textfooter {
     font-size: 18px;
 }
-@media screen and (min-width:733) {
-    img { display: none;}
-}
-@media screen (max-width:667) {
-    p {
-        font: size 10px;
-    }
+@media screen and (max-width:790px) {
+    p {font-size: 9px;}
+    .container {width: 100px;}
+    header {display:grid;}
+    .logo { display: none;}
+    
 }
